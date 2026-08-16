@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(
   cors({
     // origin: "https://resume-builder-snowy-rho.vercel.app",
-    origin : "ai-resume-builder-ugud39q64-manyata-10.vercel.app",
+    origin : "https://ai-resume-builder-ugud39q64-manyata-10.vercel.app",
     credentials: true
   })
 );
